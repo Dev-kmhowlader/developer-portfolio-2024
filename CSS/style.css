@@ -84,6 +84,7 @@ margin-top: 140px;
 padding: 100px 350px;
 border-radius: 20px;
 row-gap: 30px;
+
 }
 .about-me p{
   font-size: 18px;
@@ -123,6 +124,7 @@ margin-bottom: 50px;
 .skill-title {
   display: flex;
   gap: 25px;
+  margin-bottom: 100px;
 
   
 }
@@ -140,14 +142,26 @@ margin-bottom: 50px;
  margin-bottom: 20px;
 }
 
- 
-
-  .skill-info h3 {
+.skill-info h3 {
     font-size: 20px;
 }
 .skill-info p{
   font-size: 16px;
 }
+/* What I do section end */
 
+/* resume section */
+.flex {
+  display: flex;
+column-gap: 635px;
+}
+  
+
+
+ .resume1 {
+  display: flex;
+ 
+
+}
 
 
