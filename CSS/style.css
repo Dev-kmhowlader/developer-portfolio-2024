@@ -48,15 +48,13 @@
         column-gap: 50px;
       
       } 
-  
        .content-area {
         display: flex;
         flex-direction: column;
         row-gap: 20px;
 
       }
-      
-      .content-area h2{ 
+        .content-area h2{ 
       }
       .content-area h1{
         font-size: 55px;
@@ -65,8 +63,7 @@
         font-size: 18px;
         color: #757575;
     }
-
-       .content-area .button a {
+  .content-area .button a {
       background-color: tomato;
       padding: 18px 33px; 
       border-radius: 10px;
@@ -115,5 +112,42 @@ row-gap: 30px;
   color: #474747;
 
 }
+/* whit i do section */
+.skill-section h1 {
+font-size: 35px;
+text-align: center;
+margin-top: 100px;
+margin-bottom: 50px;
+
+}
+.skill-title {
+  display: flex;
+  gap: 25px;
+
+  
+}
+.skill-info {
+  background: #FFFFFF;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.158);
+  border-radius: 10px;
+  padding: 50px;
+
+}
+.skill-name {
+  font-size: 20px;
+  font-weight: 700px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+ 
+
+  .skill-info h3 {
+    font-size: 20px;
+}
+.skill-info p{
+  font-size: 16px;
+}
+
 
 
