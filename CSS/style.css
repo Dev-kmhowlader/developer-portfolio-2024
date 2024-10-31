@@ -201,5 +201,46 @@ border-radius: 8px;
 }
 .resume .resume-butten {
   text-align: center;
-  margin-top: 130px
+  margin-top: 130px}
+  /* resume section end */
+ 
+
+  .footer-info {
+    display: flex;
+    background-color: #fff8f3;
+    gap: 110px;
+    padding: 130px 400px;
+   }
+  .section-title {
+    font-size: 35px;
+    text-align: left;
+    margin-bottom: 50px;
+    font-weight: 700px;
+  }
+  .section-patticular {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #757575;
+
+  }
+  .footer-info.icon {
+    display: flex;
+  }
+  .box input [type="text"]{
+    margin-bottom: 24px;
+    border-radius: 8px;
+  }
+  .from-action a{
+background-color: rgb(253, 110, 10);
+padding: 20px 40px;
+border-radius: 8px;
+font-size: 18px;
+color: white;
+text-decoration: none;
+}
+.footer-info.input[typr="text"],{
+  margin-bottom: 30px;
+}
+
+}
 
