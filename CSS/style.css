@@ -171,7 +171,7 @@ column-gap: 635px;
 }
   .resume1 {
   display: flex;
-  gap: 24px;
+  gap: 35px;
  }
  .resume-item h2{
   font-size: 30px;
