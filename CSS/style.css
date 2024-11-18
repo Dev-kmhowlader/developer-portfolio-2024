@@ -1,12 +1,12 @@
 
 
 .container {
-    max-width: 1500px;
-    margin: 0 auto;
+    max-width: 1400px;
+    margin:  auto;
    } 
-.tomato {
+/* .tomato {
     color: rgb(253, 110, 10)
-}
+} */
 /* header section */
 .header-section {
     background-image: url(../images/header_bg.png), url(../images/developer.png);
@@ -15,54 +15,48 @@
     background-color: #fff8f3;
     
 }
-.hero {
+/* .hero {
     display: flex;
     justify-content: space-between;
     padding: 50px;
     align-items: center;
-  
-}
-.logo h1{
-    font-size: 50px;
-}
-.main-manu{
-    display: flex;
-    column-gap: 50px;
-    align-items: center;
-    }
+   */
+
+
+/*     
     .main-manu li{
-        list-style: none;
+        list-style: none; */
         
-       } 
+       /* } 
        .main-manu  .hire-button {
-        background-color: rgb(253, 110, 10);
+    
         padding: 13px 33px;
         border-radius: 8px;
-        color: azure;
+       
         font-weight: bold;
-}
+} */
 /* .hero-contents */
-      .hero-content{
-        display: flex; 
-        align-items: center;
-        column-gap: 50px;
+      /* .hero-content{ */
+       
+        /* align-items: center; */
+        /* column-gap: 50px; */
       
       } 
-       .content-area {
+       /* .content-area {
         display: flex;
         flex-direction: column;
-        row-gap: 20px;
+        row-gap: 20px; */
 
       }
      
-      .content-area h1{
+      /* .content-area h1{
         font-size: 55px;
       }
       .content-area p {
         font-size: 20px;
         color: #757575;
-    }
-  .content-area .button a {
+    } */
+  /* .content-area .button a {
       background-color: rgb(253, 110,10);
       padding: 18px 33px; 
       border-radius: 10px;
@@ -70,12 +64,12 @@
       font-weight: bold;
       font-size: 20px;
       text-decoration: none;
- }
+ } */
            /* header section end */
 
  /* about Me */
  .about-me {
-display: flex;
+
 flex-direction: column;
 align-items: center;
 background-color: #fff8f3;
@@ -94,7 +88,7 @@ row-gap: 30px;
   font-size: 35px;
 }
 .contact-info{
-  display: flex;
+
   column-gap: 50px;
 
 }
