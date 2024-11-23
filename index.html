@@ -51,7 +51,7 @@
 </header> 
 <main>
     
-    <section class="about-me container bg-success py-5 mt-5">
+    <section class="about-me container bg-success py-5 mt-5 rounded-5">
       
        <h1 class="text text-center py-3  text-white">About Me</h1>
         <p class=" text Center px-5 mx-5 mb-5 py-3 text-white ">I, m a designer & developer with a passion for web design.
@@ -208,20 +208,19 @@
     <hr>
 </div>
 </div>
-<div class="btn btn-warning text-center text-white text-bold px-4 py-3 mt-5 btn-warning text-center text-white text-bold px-4 py-3 mt-5">
-<a href="">Download CV</a>
+<div class="#">
+<a class="btn btn-warning text-center px-4 py-3 my-5 text-center text-white text-bold " href="">Download CV</a>
 <!-- resume section end -->
 </div>
 </div>
 </section>
 </main>
 <footer>
-    <section class="container" >
-        <div class="footer-info d-flex">
-        <div>
-            <h1 class="section-title fs-1 text-center mb-4">Let's Connect</h1>
-            <p class="section-patticular fs-5 mb-4 text-body-secondary">Please fill out the form on 
-            this section to contact 
+    <section class="container">
+        <div class="footer-info d-flex gap-5 py-5 px-5 ">
+        <div class="area w-100 py-5 px-5">
+            <h1 class="section-title fs-2  mb-4">Let's Connect</h1>
+            <p class="section-patticular fs-5 mb-4 text-body-secondary">Please fill out the form on this section to contact 
             with me or call between 9:00 
             A.M and 8.00 P.M ET, 
             Monday through Friday.
@@ -238,21 +237,23 @@
             </div>
           
         </div>
-        <div>
-            <h1 class="section-title fs-1 text-center mb-4">Let’s Message me</h1>
+        <div class="area w-100 py-5 px-5">
+            <h1 class="section-title fs-2  mb-4">Let’s Message me</h1>
             
-            <div class="from-action">
-                <div class="area">
-            <input type="text"placeholder="Your name">
-            <input type="email" placeholder="Your Email">
-        </div>
+            <div class="from-action d-flex flex-column">
+                <!-- <div class="area"> -->
+            <input class="box py-3 my-3 px-4 pb-2 border-0" type="text"placeholder="Your name">
+            <input class="box py-3 my-1 px-4 pb-2 border-0" type="email" placeholder="Your Email">
 
-                <textarea name="#" cols="30" row="10" placeholder="Message"></textarea>
-           <a href="#">Submit</a>
-            </div>
+             <textarea class="box my-3 py-1 pb-5 px-4 border-0"  placeholder="Message"></textarea>
+          <div class="div">
+           <a class="btn btn-warning text-center px-4 py-3 my-5 text-center text-white text-bold" href="#">Submit</a>
+        </div>
+            
         
         </div>
     </div>
+</div>
     </section>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
